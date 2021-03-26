@@ -3,7 +3,7 @@
 
 Based on the project <a href="https://github.com/FH-Potsdam/Sounds-of-Taipei" target="_blank">Sounds of Taipei</a>. 
 
-[![preview screenshot](/assets/preview.png)](https://fh-potsdam.github.io/Mietenwahnsinn/
+[![preview screenshot](/assets/preview.png)](https://fh-potsdam.github.io/Mietenwahnsinn)
  <a href="https://fh-potsdam.github.io/Sounds-of-Taipei/" target="_blank">Go to website</a> 
 
 Libraries used
