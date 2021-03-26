@@ -36,13 +36,7 @@ window.onload = function () {
             mapUrl: 'https://api.mapbox.com/styles/v1/donatuswolf/cjshijl1c13o41empmevvh85j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG9uYXR1c3dvbGYiLCJhIjoiY2pzaGdrcGMzMG40aDQzbjVudTJhZzZ6ZyJ9.McGYoRXAEFRlb9lG8CMXmg',
             sidebarColor: '#FFFFFF',
             fontColor: '#646978',
-        },
-        night: {
-            mapUrl: 'https://api.mapbox.com/styles/v1/donatuswolf/cjv3g470s4nlp1fodbaepvqlp/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG9uYXR1c3dvbGYiLCJhIjoiY2pzaGdrcGMzMG40aDQzbjVudTJhZzZ6ZyJ9.McGYoRXAEFRlb9lG8CMXmg',
-            sidebarColor: '#19191A',
-            fontColor: '#FFFFFF',
         }
-
     }
 
     //// load map ////////

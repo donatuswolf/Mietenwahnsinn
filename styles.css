@@ -78,7 +78,8 @@ a:hover {
     width: 12px;
 }
 
-.more:hover, .add:hover{
+.more:hover,
+.add:hover {
     cursor: pointer;
 }
 
@@ -125,7 +126,7 @@ a:hover {
     position: absolute;
     left: -58px;
     top: -1px;
-  }
+}
 
 .legend .item1 h3::before {
     color: #54494b;
@@ -161,26 +162,12 @@ a:hover {
     margin: 0;
 }
 
-#toggleTime {
-    opacity: 0;
-}
-
 .creditsleft {
     float: left;
 }
 
-.creditsright {
-    float: right;
-    margin-top: -4px;
-    background-image: url(assets/toggle-day.svg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 24px;
-    width: 48px;
-    justify-content: center;
-}
-
-.creditsleft, .creditsleft a {
+.creditsleft,
+.creditsleft a {
     font-size: 14px;
     line-height: 16px;
     text-transform: none;
@@ -194,7 +181,8 @@ a:hover {
     color: #ec4667;
 }
 
-#photo, #photobg {
+#photo,
+#photobg {
     background-color: #e5e8ef;
     position: absolute;
     z-index: 4;
@@ -215,7 +203,8 @@ a:hover {
     z-index: 5;
 }
 
-#photo.hidden, #photobg.hidden {
+#photo.hidden,
+#photobg.hidden {
     opacity: 0;
     transition: all 0.3s;
 }
@@ -248,31 +237,6 @@ a:hover {
 .leaflet-top {
     right: 0;
 }
-
-.addsound {
-    width: 64px;
-    height: 64px;
-    text-align: center;
-    background-color:#ec4667;
-    color: white;
-    text-decoration: none;
-    border-radius: 100%;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    z-index: 6;
-    line-height: 62px;
-    font-size: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease-in-out;
-}
-
-.addsound:hover {
-    background-color: #ec4667;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-}
-
-
 
 /* @keyframes sidebarMove {
     0%   {left:-280px;}
@@ -308,7 +272,7 @@ a:hover {
         float: right;
     }
 
-    .howto{
+    .howto {
         margin: 24px 0;
         max-width: 430px;
     }
@@ -321,14 +285,16 @@ a:hover {
         margin: 0;
     }
 
-    .center, .bottom {
+    .center,
+    .bottom {
         /* display: none; */
         /* visibility: hidden; */
         opacity: 1;
         transition: all 0.3s ease-in-out;
     }
 
-    #photo, #photobg {
+    #photo,
+    #photobg {
         top: auto;
         right: auto;
         bottom: 0;
@@ -337,5 +303,5 @@ a:hover {
         width: 100%;
         border-radius: 8px 8px 0 0;
     }
-    
+
 }
