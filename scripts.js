@@ -141,7 +141,7 @@ window.onload = function () {
             function playSound(name, volume) {
                 var audio = new Audio('assets/sounds/' + name + '.mp3'); // load audio
                 audio.volume = volume; // set to custom volume from dataset
-                audio.loop = true;
+                audio.loop = false;
                 audio.play();
 
                 //// mouseout ////////
