@@ -76,10 +76,12 @@ body {
 
 .logo {
     background: url(assets/logo-day.svg);
-    background-position: center center;
+    /* background-position: center center; */
     background-repeat: no-repeat;
+    width: 200px;
     height: 200px;
     justify-content: center;
+    background-size: auto;
 }
 
 .howto {
