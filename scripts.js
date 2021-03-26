@@ -45,36 +45,6 @@ window.onload = function () {
 
     }
 
-    function toggleTheme() {
-        var otherState
-        if (timeState === 'day') {
-            otherState = 'night'
-        } else {
-            otherState = 'day'
-        };
-        
-        $('.sidebar').css('background', timeTheme[timeState].sidebarColor);
-        $('.howto').css('color', timeTheme[timeState].fontColor);
-        $('.legend li').css('color', timeTheme[timeState].fontColor);
-        $('.legend li h3').css('color', timeTheme[timeState].fontColor);
-        $('.credits a').css('color', timeTheme[timeState].fontColor);
-        $('.more').css('color', timeTheme[timeState].fontColor);
-        $('#toggleTime').css('color', timeTheme[timeState].fontColor);
-        
-
-        $('.logo').css('background-image', 'url(assets/logo-' + [timeState] + '.svg');
-        $('.logo').css('background-repeat', 'no-repeat');
-        $('.logo').css('background-position', 'center center');
-
-        $('.creditsright').css('background-image', 'url(assets/toggle-' + [timeState] + '.svg');
-        $('.creditsright').css('background-repeat', 'no-repeat');
-        $('.creditsright').css('background-position', 'center center');
-
-        $('#toggleTime').attr('href', '?time=' + [otherState]);
-    }
-
-    toggleTheme();
-
     //// load map ////////
 
     var lat = 52.51;

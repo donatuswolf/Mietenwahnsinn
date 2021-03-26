@@ -83,7 +83,7 @@ a:hover {
 }
 
 .logo {
-    background: url(assets/logo-day.svg);
+    background: url(assets/logo.svg);
     /* background-position: center center; */
     background-repeat: no-repeat;
     width: 200px;
