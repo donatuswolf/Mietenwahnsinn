@@ -118,15 +118,31 @@ body {
   }
 
 .legend .item1 h3::before {
-    color: #3a7bbf;
+    color: #54494b;
 }
 
 .legend .item2 h3::before {
-    color: #99e0dc;
+    color: #bcb6ff;
 }
 
 .legend .item3 h3::before {
-    color: #ae65d5;
+    color: #91c7b1;
+}
+
+.legend .item4 h3::before {
+    color: #b33951;
+}
+
+.legend .item5 h3::before {
+    color: #e3d081;
+}
+
+.legend .item6 h3::before {
+    color: #ee964b;
+}
+
+.legend .item7 h3::before {
+    color: #cb8589;
 }
 
 .legend li p {
