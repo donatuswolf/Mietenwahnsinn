@@ -1,0 +1,315 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    position: relative;
+}
+
+.sidebar {
+    width: 280px;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #FFFFFF;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    /* animation-name: sidebarMove;
+    animation-duration: 1s; */
+}
+
+.top {
+    justify-content: flex-start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.bottom {
+    justify-content: flex-end;
+}
+
+.more {
+    height: 64px;
+    width: 40px;
+    color: rgb(101, 104, 121);
+    border-radius: 100%;
+    line-height: 36px;
+    font-size: 40px;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.more::before {
+    border-style: solid;
+    border-width: 4px 4px 0 0;
+    content: '';
+    display: inline-block;
+    transform: rotate(-45deg);
+    height: 12px;
+    left: 30%;
+    position: relative;
+    top: 28px;
+    vertical-align: top;
+    width: 12px;
+}
+
+.more:hover, .add:hover{
+    cursor: pointer;
+}
+
+.logo {
+    background: url(assets/logo-day.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90px;
+    justify-content: center;
+}
+
+.howto {
+    margin: 0 0 40px 0;
+    color: #646978;
+}
+
+.legend {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 88px;
+}
+
+.legend li {
+    list-style: none;
+    color: #646978;
+    padding-left: 24px;
+}
+
+.legend li h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #646978;
+    margin: 20px 0 0 0;
+    /* text-transform: uppercase;
+    letter-spacing: 2px; */
+    position: relative;
+}
+
+.legend h3::before {
+    content: "•";
+    font-size: 80px;
+    position: absolute;
+    left: -58px;
+    top: -1px;
+  }
+
+.legend .item1 h3::before {
+    color: #3a7bbf;
+}
+
+.legend .item2 h3::before {
+    color: #99e0dc;
+}
+
+.legend .item3 h3::before {
+    color: #ae65d5;
+}
+
+.legend li p {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+#toggleTime {
+    opacity: 0;
+}
+
+.creditsleft {
+    float: left;
+}
+
+.creditsright {
+    float: right;
+    margin-top: -4px;
+    background-image: url(assets/toggle-day.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 48px;
+    justify-content: center;
+}
+
+.creditsleft, .creditsleft a {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: none;
+    color: #646978;
+    margin-bottom: -16px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.credits a:hover {
+    color: #ec4667;
+}
+
+#photo, #photobg {
+    background-color: #e5e8ef;
+    position: absolute;
+    z-index: 4;
+    top: 20px;
+    right: 20px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    opacity: 1;
+    pointer-events: none;
+}
+
+#photo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    z-index: 5;
+}
+
+#photo.hidden, #photobg.hidden {
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#label {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 12px 16px 24px;
+    font-weight: 400;
+    text-shadow: 0 2px 4px #00000060;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.6+0,0+100 */
+    background: -moz-linear-gradient(top, hsla(0, 0%, 0%, 0.8) 0%, hsla(0, 0%, 0%, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, hsla(0, 0%, 0%, 0.8) 0%, hsla(0, 0%, 0%, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.8) 0%, hsla(0, 0%, 0%, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00000000', GradientType=0);
+    /* IE6-9 */
+}
+
+#mapid {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.leaflet-top {
+    right: 0;
+}
+
+.addsound {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    background-color:#ec4667;
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 6;
+    line-height: 62px;
+    font-size: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.addsound:hover {
+    background-color: #ec4667;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+
+/* @keyframes sidebarMove {
+    0%   {left:-280px;}
+    100% {left:0px;}
+  } */
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        height: 416px;
+        /* 416 */
+        padding: 20px;
+        /* flex-direction: row; */
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        /* animation-name: sidebarMove;
+        animation-duration: 1s; */
+    }
+
+    .top {
+        position: relative;
+    }
+
+    .logo {
+        height: 64px;
+        width: 120px;
+        background-position: left center;
+        float: left;
+    }
+
+    .more {
+        display: block;
+        float: right;
+    }
+
+    .howto{
+        margin: 24px 0;
+        max-width: 430px;
+    }
+
+    .legend {
+        margin-bottom: 32px;
+    }
+
+    .credits {
+        margin: 0;
+    }
+
+    .center, .bottom {
+        /* display: none; */
+        /* visibility: hidden; */
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #photo, #photobg {
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        height: 240px;
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+    
+}
