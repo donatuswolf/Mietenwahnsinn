@@ -77,8 +77,8 @@ window.onload = function () {
 
     //// load map ////////
 
-    var lat = 52.5;
-    var lng = 13.4;
+    var lat = 52.51;
+    var lng = 13.35;
     var zoom = 13;
 
     var mymap = L.map('mapid').setView([lat, lng], zoom);
