@@ -31,6 +31,14 @@ body {
     animation-duration: 1s; */
 }
 
+a {
+    color: #9E8AB5;
+}
+
+a:hover {
+    color: black;
+}
+
 .top {
     justify-content: flex-start;
 }
@@ -182,7 +190,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.credits a:hover {
+.creditsleft a:hover {
     color: #ec4667;
 }
 
