@@ -33,7 +33,7 @@ window.onload = function () {
 
     var timeTheme = {
         day: {
-            mapUrl: 'https://api.mapbox.com/styles/v1/mieten/ckn93f2pm0tbt17mhtwqzj5bg.html?fresh=true&title=view&access_token=pk.eyJ1IjoibWlldGVuIiwiYSI6ImNrbXhhc2ZzeDBsZXkycXBmY29vZmlhemkifQ.krIV4erLQm1Ma-ZHEJPi_w#17.71/52.502436/13.432408',
+            mapUrl: 'https://api.mapbox.com/styles/v1/mieten/ckn93f2pm0tbt17mhtwqzj5bg/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWlldGVuIiwiYSI6ImNrbXhhc2ZzeDBsZXkycXBmY29vZmlhemkifQ.krIV4erLQm1Ma-ZHEJPi_w',
             sidebarColor: '#FFFFFF',
             fontColor: '#646978',
         }
