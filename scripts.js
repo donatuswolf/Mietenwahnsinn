@@ -4,13 +4,13 @@ window.onload = function () {
     var radiusMax = 20;
 
     var color = {
-        1: '#54494b',
-        2: '#bcb6ff',
-        3: '#91c7b1',
-        4: '#b33951',
-        5: '#e3d081',
-        6: '#ee964b',
-        7: '#cb8589'
+        1: '#8CB369',
+        2: '#8CB369',
+        3: '#8CB369',
+        4: '#8CB369',
+        5: '#8CB369',
+        6: '#8CB369',
+        7: '#E56399'
     }
 
     //// day/night theme ////////
