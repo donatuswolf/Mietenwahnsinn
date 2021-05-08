@@ -119,18 +119,6 @@
     "author": ""
 },
 {
-    "id": "03-Cuvry Campus",
-    "label": "Cuvry Campus",
-    "googlemaps": "https://pwmietenwahnsinn.org/Planung",
-    "vol": 1,
-    "db": 1,
-    "x": 52.49955157014509,
-    "y": 13.445763911660926,
-    "type": "6",
-    "time": "day",
-    "author": ""
-},
-{
     "id": "05-Rollheimer",
     "label": "Rollheimer",
     "googlemaps": "https://goo.gl/maps/k4ShAr3PzSixEJYJ7",
