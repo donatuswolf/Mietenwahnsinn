@@ -129,11 +129,11 @@ a:hover {
 }
 
 .legend .item1 h3::before {
-    color: #54494b;
+    color: #8cb369;
 }
 
 .legend .item2 h3::before {
-    color: #bcb6ff;
+    color: #e56399;
 }
 
 .legend .item3 h3::before {
