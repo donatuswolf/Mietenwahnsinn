@@ -2,7 +2,7 @@
     "id": "BizimKiez",
     "label": "Bizim Kiez",
     "googlemaps": "https://goo.gl/maps/CnEnPQ6oGuUTvL2H9",
-    "vol": 2,
+    "vol": 1,
     "db": 1,
     "x": 52.49805454419858,
     "y": 13.443501248545832,
@@ -15,10 +15,10 @@
     "label": "MieterWerkStadt Charlottenburg",
     "googlemaps": "https://goo.gl/maps/gGdC1Vrj79Gn2nC68",
     "vol": 1,
-    "db": 2,
+    "db": 1,
     "x": 52.51787923220108,
     "y": 13.291506643645338,
-    "type": "2",
+    "type": "1",
     "time": "day",
     "author": ""
 },
@@ -26,11 +26,11 @@
     "id": "HdS",
     "label": "Haus der Statstik",
     "googlemaps": "https://goo.gl/maps/Cd7n3CMMkSW5mooY9",
-    "vol": 5,
+    "vol": 1,
     "db": 1,
     "x": 52.522319848469934,
     "y": 13.417949083193978,
-    "type": "3",
+    "type": "1",
     "time": "day",
     "author": ""
 },
@@ -38,11 +38,11 @@
     "id": "Zossener",
     "label": "Zossener 48",
     "googlemaps": "https://goo.gl/maps/UxYzywfUb9chYsC18",
-    "vol": 10,
+    "vol": 1,
     "db": 1,
     "x": 52.49362198243647,
     "y": 13.395427328769896,
-    "type": "4",
+    "type": "1",
     "time": "day",
     "author": ""
 },
@@ -51,10 +51,10 @@
     "label": "Deutsche Wohnen & Co. Enteignen",
     "googlemaps": "https://goo.gl/maps/3dSEgLqvDE8qBkDa6",
     "vol": 1,
-    "db": 0.5,
+    "db": 1,
     "x": 52.49904003510128,
     "y": 13.418311377590864,
-    "type": "5",
+    "type": "1",
     "time": "day",
     "author": ""
 },
@@ -66,7 +66,7 @@
     "db": 1,
     "x": 52.46913445121103,
     "y": 13.32646863698886,
-    "type": "6",
+    "type": "1",
     "time": "day",
     "author": ""
 },
@@ -75,10 +75,10 @@
     "label": "K77",
     "googlemaps": "https://goo.gl/maps/PpJJYfosFqexisCq9",
     "vol": 1,
-    "db": 5,
+    "db": 1,
     "x": 52.53651337903724,
     "y": 13.40781119053694,
-    "type": "7",
+    "type": "1",
     "time": "day",
     "author": ""
 },
@@ -90,7 +90,7 @@
     "db": 1,
     "x": 52.527608332879346,
     "y": 13.343908855840258,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -102,7 +102,7 @@
     "db": 1,
     "x": 52.55020158526101,
     "y": 13.370332988376214,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -114,7 +114,7 @@
     "db": 1,
     "x": 52.49955157014509,
     "y": 13.445763911660926,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -126,7 +126,7 @@
     "db": 1,
     "x": 52.46929794062453,
     "y": 13.42873978492824,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -138,7 +138,7 @@
     "db": 1,
     "x": 52.51046060679172,
     "y": 13.285419198598753,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -150,7 +150,7 @@
     "db": 1,
     "x": 52.48836994231259,
     "y": 13.412111538646535,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -162,7 +162,7 @@
     "db": 1,
     "x": 52.508688956076156,
     "y": 13.347748764266038,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -174,7 +174,7 @@
     "db": 1,
     "x": 52.50485919039892,
     "y": 13.469214678586884,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -186,7 +186,7 @@
     "db": 1,
     "x": 52.51074003089765,
     "y": 13.42505820741707,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -198,7 +198,7 @@
     "db": 1,
     "x": 52.5666989077866,
     "y": 13.566623557691349,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -222,7 +222,7 @@
     "db": 1,
     "x": 52.415808031319955,
     "y": 13.436803727000767,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -234,7 +234,7 @@
     "db": 1,
     "x": 52.53076882160709,
     "y": 13.362537690225244,
-    "type": "6",
+    "type": "2",
     "time": "day",
     "author": ""
 }]
