@@ -111,6 +111,8 @@ window.onload = function () {
 
                 $('#photo').css('width', width.toString());
                 $('#photo').css('height', height.toString());
+                $('#photobg').css('width', width.toString());
+                $('#photobg').css('height', height.toString());
 
 
                 $('#label').html(data.label); // add text
