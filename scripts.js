@@ -94,25 +94,20 @@ window.onload = function () {
                 var width = "300px";
                 var height = "200px";
 
-console.log(typeof data.type);
-
                 switch (data.type) {
-                    case 1:
+                    case "1":
                         break;
-                    case 2:
-                    console.log('case 2');
+                    case "2":
                         width = "774px";
                         height = "573px";
                         break;
-                    case 3:
+                    case "3":
                         width = "756px";
                         height = "1146px";
                         break;
                      default:
                         break;
                 }
-
-                console.log(width,height);
 
                 $('#photo').css('width', width.toString());
                 $('#photo').css('height', height.toString());
