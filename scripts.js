@@ -91,12 +91,16 @@ window.onload = function () {
                 $('#photo').css('background-image', 'url(assets/photos/' + data.id + '.jpg)'); // load photo
 
                 //set aspect ratio based on data.type
-                var width = "300px";;
-                var height = "200px";;
+                var width = "300px";
+                var height = "200px";
+
+console.log(data.type);
+
                 switch (data.type) {
                     case 1:
                         break;
                     case 2:
+                    console.log('case 2');
                         width = "774px";
                         height = "573px";
                         break;
