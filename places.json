@@ -162,7 +162,7 @@
     "db": 1,
     "x": 52.508688956076156,
     "y": 13.347748764266038,
-    "type": "3",
+    "type": "2",
     "time": "day",
     "author": ""
 },
@@ -180,13 +180,13 @@
 },
 {
     "id": "18-Spreefeld",
-    "label": "Ökohäuser",
+    "label": "Spreefeld",
     "googlemaps": "https://pwmietenwahnsinn.org/Planung",
     "vol": 1,
     "db": 1,
     "x": 52.51074003089765,
     "y": 13.42505820741707,
-    "type": "2",
+    "type": "3",
     "time": "day",
     "author": ""
 },
