@@ -108,6 +108,8 @@ window.onload = function () {
                         break;
                 }
 
+                console.log(width,height);
+
                 $('#photo').css('width', width.toString());
                 $('#photo').css('height', height.toString());
 
