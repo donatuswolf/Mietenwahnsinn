@@ -109,10 +109,15 @@ window.onload = function () {
                         break;
                 }
 
-                $('#photo').css('width', width.toString());
-                $('#photo').css('height', height.toString());
-                $('#photobg').css('width', width.toString());
-                $('#photobg').css('height', height.toString());
+                if (window.screen.width < 600){
+                    width = "100%"
+                    height = '240px'
+                }
+
+                $('#photo').css('width', width);
+                $('#photo').css('height', height);
+                $('#photobg').css('width', width);
+                $('#photobg').css('height', height);
 
 
                 $('#label').html(data.label); // add text
