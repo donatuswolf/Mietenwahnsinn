@@ -94,7 +94,7 @@ window.onload = function () {
                 var width = "300px";
                 var height = "200px";
 
-console.log(data.type);
+console.log(typeof data.type);
 
                 switch (data.type) {
                     case 1:
