@@ -6,6 +6,7 @@ window.onload = function () {
     var color = {
         1: '#8cb369',
         2: '#E56399',
+        3: '#E56399',
      
 
 
@@ -88,7 +89,29 @@ window.onload = function () {
                 this.setRadius(map(data.db, 0, 1, radiusMin, radiusMax)); // size of cirlces when hovered
 
                 $('#photo').css('background-image', 'url(assets/photos/' + data.id + '.jpg)'); // load photo
-                $('#photo').css('width', '500px'); // load photo
+
+                //set aspect ratio based on data.type
+                var width = "300px";;
+                var height = "200px";;
+                switch (data.type) {
+                    case 1:
+                        break;
+                    case 2:
+                        width = "774px";
+                        height = "573px";
+                        break;
+                    case 3:
+                        width = "756px";
+                        height = "1146px";
+                        break;
+                     default:
+                        break;
+                }
+
+                $('#photo').css('width', width.toString());
+                $('#photo').css('height', height.toString());
+
+
                 $('#label').html(data.label); // add text
                 $('#photo').removeClass('hidden'); // show photo
                 $('#photobg').removeClass('hidden');
