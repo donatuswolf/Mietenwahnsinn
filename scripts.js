@@ -102,8 +102,8 @@ window.onload = function () {
                         height = "573px";
                         break;
                     case "3":
-                        width = "756px";
-                        height = "1146px";
+                        width = "378px";
+                        height = "573px";
                         break;
                      default:
                         break;
