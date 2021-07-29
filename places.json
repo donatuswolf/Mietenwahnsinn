@@ -107,7 +107,7 @@
     "author": ""
 },
 {
-    "id": "03-Cuvry Campus",
+    "id": "03CuvryCampus",
     "label": "Cuvry Campus",
     "googlemaps": "https://pwmietenwahnsinn.org/Planung",
     "vol": 1,
@@ -132,7 +132,7 @@
 },
 {
     "id": "06-Kaiserdamm",
-    "label": "Cuvry Campus",
+    "label": "Kaiserdamm",
     "googlemaps": "https://pwmietenwahnsinn.org/Planung",
     "vol": 1,
     "db": 1,
@@ -144,7 +144,7 @@
 },
 {
     "id": "09-Hasenheide 74",
-    "label": "Cuvry Campus",
+    "label": "Hasenheide 74",
     "googlemaps": "https://pwmietenwahnsinn.org/Planung",
     "vol": 1,
     "db": 1,
@@ -203,7 +203,7 @@
     "author": ""
 },
 {
-    "id": "22-Am Tacheles",
+    "id": "22AmTacheles",
     "label": "Am Tacheles",
     "googlemaps": "https://pwmietenwahnsinn.org/Planung",
     "vol": 1,
@@ -215,7 +215,7 @@
     "author": ""
 },
 {
-    "id": "23-Urban Coop Buckower Felder",
+    "id": "23UrbanCoop BuckowerFelder",
     "label": "Urban Coop Buckower Felder",
     "googlemaps": "https://pwmietenwahnsinn.org/Planung",
     "vol": 1,
@@ -227,7 +227,7 @@
     "author": ""
 },
 {
-    "id": "24-Mittenmang Lehrter Straße",
+    "id": "24MittenmangLehrterStraße",
     "label": "Mittenmang Lehrter Straße",
     "googlemaps": "https://pwmietenwahnsinn.org/Planung",
     "vol": 1,
