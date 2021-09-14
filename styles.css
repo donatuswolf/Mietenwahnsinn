@@ -32,7 +32,7 @@ body {
 }
 
 a {
-    color: #9E8AB5;
+    color: #6D85BE;
 }
 
 a:hover {
@@ -166,19 +166,23 @@ a:hover {
     float: left;
 }
 
-.creditsleft,
+.creditsleft{
+    font-size: 14px;
+    line-height: 16px;
+    color: #646978;
+    margin-bottom: -16px;
+}
+    
 .creditsleft a {
     font-size: 14px;
     line-height: 16px;
-    text-transform: none;
-    color: #646978;
+    color: #6D85BE;
     margin-bottom: -16px;
-    text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
 
 .creditsleft a:hover {
-    color: #ec4667;
+    color: #000000;
 }
 
 #photo,
